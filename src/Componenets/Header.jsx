@@ -31,7 +31,7 @@ function Header({ onMenuClick }) {
         </div>
       </div>
 
-      <div className="flex items-center justify-between sm:justify-end gap-2 sm:gap-3">
+      <div className="flex items-center justify-end gap-2 sm:gap-3">
         <span className="bg-yellow-200 px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm font-medium">
           {userLoading ? "--xp" : userError ? "N/A" : `${user.xp}xp`}
         </span>
