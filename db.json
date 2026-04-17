@@ -1,0 +1,48 @@
+{
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "progress": 85,
+    "xp": 1200
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project A",
+      "description": "Set up the initial dashboard architecture and connect mock APIs."
+    },
+    {
+      "id": 2,
+      "title": "Project B",
+      "description": "Design the responsive leaderboard and leaderboard card styles."
+    },
+    {
+      "id": 3,
+      "title": "Project C",
+      "description": "Build the note editor panel with save and success feedback." 
+    },
+    {
+      "id": 4,
+      "title": "Project D",
+      "description": "Implement sidebar navigation and responsive menu interactions."
+    }
+  ],
+  "leaderboard": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "score": 1500
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "score": 1200
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "score": 900
+    }
+  ],
+  "notes": []
+}
