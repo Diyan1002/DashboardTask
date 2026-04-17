@@ -12,7 +12,7 @@ function Sidebar({ open = false, onClose }) {
     >
       {/* LOGO (WHITE AREA) */}
       <div className="p-5 flex items-center justify-between">
-        <img src={logo} alt="logo" className="h-12" />
+        <img src={logo} alt="logo" className="h-14" />
 
         <button
           onClick={onClose}
