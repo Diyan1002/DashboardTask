@@ -43,7 +43,7 @@ function ProgressBar({ progress = 65 }) {
             className="absolute -top-5 sm:-top-6 transform -translate-x-1/2"
             style={{ left: `${animatedProgress}%` }}
           >
-            <div className="bg-white text-blue-600 text-[10px] mt-2 sm:text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full shadow">
+            <div className="bg-white text-blue-600 text-[10px] mt-1 sm:text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full shadow">
               {animatedProgress * 10} XP
             </div>
           </div>
