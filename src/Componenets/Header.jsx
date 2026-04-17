@@ -6,9 +6,9 @@ function Header({ onMenuClick }) {
   const { user, userLoading, userError } = useAppContext();
 
   return (
-    <div className="bg-white p-3 sm:p-4 rounded-medium flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+    <div className="bg-white p-3 sm:p-4 rounded-medium flex items-center justify-between gap-3">
 
-      {/* LEFT SIDE */}
+      {/* LEFT */}
       <div className="flex items-center gap-2 sm:gap-3 min-w-0">
         <button
           type="button"
@@ -27,8 +27,7 @@ function Header({ onMenuClick }) {
               ? "Unavailable"
               : `Hello, ${user.name} 👋`}
           </h2>
-
-          <p className="mt-0.5 text-xs sm:text-sm text-slate-500 truncate">
+          <p className="text-xs sm:text-sm text-slate-500 truncate">
             {userLoading
               ? "Fetching..."
               : userError
@@ -38,8 +37,8 @@ function Header({ onMenuClick }) {
         </div>
       </div>
 
-      {/* RIGHT SIDE */}
-      <div className="flex items-center gap-3 flex-shrink-0 ml-auto">
+      {/* RIGHT */}
+      <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
         <span className="bg-yellow-200 px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm font-medium">
           {userLoading ? "--xp" : userError ? "N/A" : `${user.xp}xp`}
         </span>
